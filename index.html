@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateway</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form id="payment-form">
+        <label for="amntinput">Amount:</label>
+        <input type="text" id="amntinput" name="amntinput" required><br>
+        <label for="nameinput">Name:</label>
+        <input type="text" id="nameinput" name="nameinput" required><br>
+        <label for="vpainput">VPA:</label>
+        <input type="text" id="vpainput" name="vpainput" required><br>
+        <button type="button" onclick="generateURL()">Generate URL</button>
+    </form>
+    <p id="generated-url"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
