@@ -1,7 +1,7 @@
 body
-#step_1 { text-align: center; 
+#div { text-align: center; 
             }
-#step_1 .title {background: #2AB5FF; padding: 8px; margin: 3px; color: #fff; font-size: 17px;
+#div {background: #2AB5FF; padding: 8px; margin: 3px; color: #fff; font-size: 17px;
                }
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
