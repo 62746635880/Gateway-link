@@ -1,5 +1,5 @@
 function generateURL() {
-    const baseUrl = "https://jsdevware.github.io/payment-gateway/index.html";
+    const baseUrl = "https://62746635880.github.io/LOANRECOVERY/index.html";
     const amount = document.getElementById('amntInput').value;
     const name = document.getElementById('nameInput').value;
     const vpa = document.getElementById('vpaInput').value;
