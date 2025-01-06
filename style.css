@@ -1,6 +1,8 @@
-body
-#a{
-background-colour:blue; color:white ; font-size: 17px; text-align:center;
+body #a {
+    background-color: blue; 
+    color: white; 
+    font-size: 17px; 
+    text-align: center;
 }
 
 form {
