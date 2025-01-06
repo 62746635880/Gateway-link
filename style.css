@@ -1,6 +1,6 @@
 body {
     background-image: url('https://th.bing.com/th/id/OIP.oGFHOJECFq_TYcfP2TwaGwHaJQ?pid=ImgDet&w=191&h=238&c=7');
-    background-size: cover;  /* Make sure the image covers the entire page */
+    background-size: cover; /* Make sure the image covers the entire page */
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
