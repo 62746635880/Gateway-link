@@ -6,7 +6,9 @@ body #a {
 }
 
 form {
-    background-color: grey ;
+    background-color: grey;
+    background-image: url('https://th.bing.com/th/id/OIP.oGFHOJECFq_TYcfP2TwaGwHaJQ?pid=ImgDet&w=191&h=238&c=7');  /* Added background image */
+    background-size: cover;  /* Make sure the image covers the entire form */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -14,7 +16,7 @@ form {
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;  /* Added to center the button */
+    align-items: center;  /* Center the button */
 }
 
 label {
@@ -39,7 +41,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: fit-content;  /* Added to fit the content */
+    width: fit-content;  /* Fit the button content */
 }
 
 button:hover {
