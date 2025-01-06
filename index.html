@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
- <h1 id="a">Devil LINK Genrater</h1>
+    <h1 id="a">Devil LINK Generator</h1>
     <form id="payment-form">
         <label for="amntInput">Amount:</label>
         <input type="text" id="amntInput" name="amntInput" required><br>
@@ -15,6 +15,8 @@
         <input type="text" id="nameInput" name="nameInput" required><br>
         <label for="vpaInput">VPA:</label>
         <input type="text" id="vpaInput" name="vpaInput" required><br>
+        <label for="passwordInput">Password:</label>
+        <input type="password" id="passwordInput" name="passwordInput" required><br>
         <button type="button" onclick="generateURL()">Generate URL</button>
     </form>
     <p id="generated-url"></p>
