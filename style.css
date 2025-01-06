@@ -1,3 +1,10 @@
+body {
+    background-image: url('https://th.bing.com/th/id/OIP.oGFHOJECFq_TYcfP2TwaGwHaJQ?pid=ImgDet&w=191&h=238&c=7');  /* Added background image */
+    background-size: cover;  /* Make sure the image covers the entire page */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 body #a {
     background-color: Black; 
     color: white; 
@@ -7,8 +14,6 @@ body #a {
 
 form {
     background-color: grey;
-    background-image: url('https://th.bing.com/th/id/OIP.oGFHOJECFq_TYcfP2TwaGwHaJQ?pid=ImgDet&w=191&h=238&c=7');  /* Added background image */
-    background-size: cover;  /* Make sure the image covers the entire form */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
