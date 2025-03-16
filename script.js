@@ -5,7 +5,7 @@ function generateURL() {
     const vpa = document.getElementById('vpaInput').value;
     const password = document.getElementById('passwordInput').value;
 
-    const correctPassword = "DEVIL167";
+    const correctPassword = "AS";
 
     if (!password) {
         alert("Please enter the password");
