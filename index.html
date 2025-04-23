@@ -3,23 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>URL Generator with Countdown</title>
+    <title>URL Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main-container">
-        <h1>URL Generator</h1>
-        <form id="url-generator-form">
-            <button type="button" onclick="generateURL()">Generate URL</button>
-        </form>
-        <p id="generated-url"></p>
-    </div>
+    <h1>URL Generator</h1>
+    <form>
+        <button type="button" onclick="generateURL()">Generate URL</button>
+    </form>
+    <p id="generated-url"></p>
 
-    <div id="countdown-container" style="display: none;">
-        <h1>Countdown Timer</h1>
-        <p id="countdown">Loading...</p>
-    </div>
-
-    
+    <script src="script.js"></script>
 </body>
 </html>
