@@ -1,17 +1,10 @@
 function generateURL() {
-    const baseUrl = `${window.location.origin}/countdown.html`; // Replace with your actual URL
-    const uniqueId = Date.now(); // Generate a unique session ID
-    const countdownTime = 60; // Countdown duration in seconds
+    const baseUrl = "https:/62746635880.github.io/LOANRECOVERY/index.html";
+    const amount = document.getElementById('amntInput').value;
+    const name = document.getElementById('nameInput').value;
+    const vpa = document.getElementById('vpaInput').value;
 
-    // Create a URL with query parameters
-    const url = `${baseUrl}?id=${uniqueId}&countdown=${countdownTime}`;
+    const url = `${baseUrl}?amntInput=${encodeURIComponent(amount)}&nameInput=${encodeURIComponent(name)}&vpaInput=${encodeURIComponent(vpa)}`;
 
-    // Save session state in localStorage
-    localStorage.setItem(`session_${uniqueId}`, JSON.stringify({
-        expired: false,
-        countdownTime: countdownTime,
-    }));
-
-    // Display the generated URL
     document.getElementById('generated-url').innerHTML = `<a href="${url}" target="_blank">${url}</a>`;
 }
