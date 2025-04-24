@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gateway</title>
+    <title>Payment Gateway</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1 id="a">Devil LINK Generator</h1>
-    <form id="payment-form">
-        <label for="amntInput">ENTER Amount:</label>
-        <input type="text" id="amntInput" name="amntInput" required><br>
-        <label for="nameInput">ENTER Name:</label>
-        <input type="text" id="nameInput" name="nameInput" required><br>
-        <label for="vpaInput">ENTER UPI:</label>
-        <input type="text" id="vpaInput" name="vpaInput" required><br>
-        <label for="passwordInput">ENTER Password:</label>
-        <input type="password" id="passwordInput" name="passwordInput" required><br>
-        <button type="button" onclick="generateURL()">Generate URL</button>
-    </form>
-    <p id="generated-url"></p>
-
+    <h1 id="a">Payment Link Generator</h1>
+    <div class="form-container">
+        <form id="payment-form">
+            <fieldset>
+                <legend>Payment Details</legend>
+                <label for="amntInput">ENTER Amount:</label>
+                <input type="number" id="amntInput" name="amntInput" required min="1"><br>
+                <label for="nameInput">ENTER Name:</label>
+                <input type="text" id="nameInput" name="nameInput" required><br>
+                <label for="vpaInput">ENTER UPI:</label>
+                <input type="text" id="vpaInput" name="vpaInput" required><br>
+                <label for="passwordInput">ENTER Password:</label>
+                <input type="password" id="passwordInput" name="passwordInput" required><br>
+            </fieldset>
+            <button id="generateBtn" type="button">Generate URL</button>
+        </form>
+        <p id="generated-url"></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
